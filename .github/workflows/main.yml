@@ -1,0 +1,14 @@
+name : Run Linux commands
+on: workflow_dispatch 
+jobs :
+   job1: run linux commands1
+     runs-on: ubuntu-latest
+     steps :
+       -name :execute command
+       run : echo "Om Sai Tirumala"
+    
+   job2: run linux commands2
+     runs-on: ubuntu-24.04
+     steps :
+       -name :execute command
+       run : echo "Thank you"
